@@ -1,0 +1,37 @@
+{
+  "name": "ethyl-bridge",
+  "version": "0.1.0",
+  "description": "The Ethyl test environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/nikhiljha/ethyl-tenv.git"
+  },
+  "keywords": [
+    "ethyl",
+    "nem",
+    "iot"
+  ],
+  "author": "Ethyl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/nikhiljha/ethyl-tenv/issues"
+  },
+  "bin": {
+    "ethyl-bridge": "./index.js"
+  },
+  "homepage": "https://gitlab.com/nikhiljha/ethyl-tenv#README",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "configstore": "^3.1.2",
+    "express": "^4.16.3",
+    "homeassistant": "^0.1.4",
+    "inquirer": "^5.2.0",
+    "minimist": "^1.2.0",
+    "nem-sdk": "^1.6.4",
+    "sync-request": "^6.0.0"
+  }
+}
