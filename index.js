@@ -32,7 +32,8 @@ if (!conf.get("key")) {
 
     console.log("If you followed all instructions, your account is now setup. Rerun this to start.")
     console.log("Remember, the following private key is insecure and should only be used for testing.")
-    console.log("Your private key is: " + privateKey)
+    console.log("Your private key is: " + privateKey);
+    console.log("Send tXEM to: " + address);
 } else {
 
     // HomeAssistant Integration
