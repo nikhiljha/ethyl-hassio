@@ -46,7 +46,7 @@ if (!conf.get("key")) {
         port: argv.hass_port,
 
         // Your Home Assistant API password
-        password: argv.hass_pw,
+        password: conf.api_pass,
 
         // Ignores SSL certificate errors, use with caution 
         // Optional, defaults to false 
