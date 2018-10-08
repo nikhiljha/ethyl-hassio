@@ -36,6 +36,8 @@ if (!conf.get("key")) {
     console.log("Send tXEM to: " + address);
 } else {
 
+    console.log(conf.get("api_pass"))
+
     // HomeAssistant Integration
     const hass = new HomeAssistant({
         // Your Home Assistant host 
@@ -47,7 +49,7 @@ if (!conf.get("key")) {
         port: argv.hass_port,
 
         // Your Home Assistant API password
-        password: conf.api_pass,
+        password: conf.get("api_pass"),
 
         // Ignores SSL certificate errors, use with caution 
         // Optional, defaults to false 
